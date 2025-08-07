@@ -4,7 +4,7 @@ import csv from 'csv-parser';
 import { DATA_PATH } from '@/constant/path';
 
 function processCsvData(data: any[]) {
-  const newDataObj: any = {};
+  // const newDataObj: any = {};
 
   // initial construction of the data object
   for (let i = 0; i < data.length; i++) {
@@ -66,9 +66,11 @@ function processCsvData(data: any[]) {
 }
 
 export default function loadData() {
-  return new Promise((res, rej) => {
+  console.log(fs.readdirSync('.'));
+  console.log(fs.readFileSync('./data/FALL 2020.csv'));
+  return new Promise(res => {
     const fileCount = DATA_PATH.length;
-    let loadedFileData: any = {};
+    const loadedFileData: any = {};
     for (let i = 0; i < DATA_PATH.length; i++) {
       const results: any[] = [];
       fs.createReadStream(DATA_PATH[i].path)
