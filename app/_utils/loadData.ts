@@ -66,8 +66,6 @@ function processCsvData(data: any[]) {
 }
 
 export default function loadData() {
-  console.log(fs.readdirSync('.'));
-  console.log(fs.readFileSync('./data/FALL 2020.csv'));
   return new Promise(res => {
     const fileCount = DATA_PATH.length;
     const loadedFileData: any = {};
