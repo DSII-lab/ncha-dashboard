@@ -29,11 +29,8 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
-
+## Deploy using Docker
 Docker build: docker build -t ncha-dashboard .
-Run an image: docker run -e OPENAI_API_KEY=$OPENAI_API_KEY -p 3000:3000 ncha-dashboard
+Docker run: docker run -e OPENAI_API_KEY=$OPENAI_API_KEY -e OPENAI_FILE_VECTOR=$OPENAI_FILE_VECTOR -p 3000:3000 ncha-dashboard
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Where the $OPENAI_API_KEY should be replaced with an OpenAI's api key, and $OPENAI_FILE_VECTOR should be replaced with the file vector id.
