@@ -2,9 +2,18 @@
 
 import OpenAI from "openai";
 
+const VECTOR_STORE_ID: any = process.env.OPENAI_FILE_VECTOR;
 const client = new OpenAI();
 
 export async function parsePrompt(prompt: string) {
+  if (typeof process.env.OPENAI_FILE_VECTOR !== 'string') {
+    console.log('No vector store id!');
+    return {
+      status: 1,
+      msg: 'Server error'
+    }
+  }
+
   try {
     const response = await client.responses.create({
       model: "gpt-4o-mini",
@@ -12,7 +21,7 @@ export async function parsePrompt(prompt: string) {
       input: "Here are the user's questions: " + prompt,
       tools: [{
         type: "file_search",
-        vector_store_ids: ["vs_680714c91c7c8191975a378e4a4548e9"],
+        vector_store_ids: [VECTOR_STORE_ID],
       }]
     })
     console.log(response.output_text)
