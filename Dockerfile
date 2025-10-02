@@ -48,7 +48,7 @@ RUN addgroup --system --gid 1001 app
 RUN adduser --system --uid 1001 app
 
 COPY --from=builder --chown=app:app /app/public ./public
-COPY --from=builder --chown=app:app /app/data ./data
+# COPY --from=builder --chown=app:app /app/data ./data
 
 # Automatically leverage output traces to reduce image size
 # https://nextjs.org/docs/advanced-features/output-file-tracing

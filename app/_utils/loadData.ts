@@ -1,7 +1,8 @@
 import fs from 'fs';
+import path from 'path';
 import csv from 'csv-parser';
 
-import { DATA_PATH } from '@/constant/path';
+import { DATA_DIR_PATH } from '@/constant/path';
 
 function processCsvData(data: any[]) {
   // const newDataObj: any = {};
@@ -67,6 +68,17 @@ function processCsvData(data: any[]) {
 
 export default function loadData() {
   return new Promise(res => {
+    // read all data files from /data
+    const dataFiles = fs.readdirSync(DATA_DIR_PATH);
+    const DATA_PATH: any = [];
+
+    for (let i = 0; i < dataFiles.length; i++) {
+      DATA_PATH.push({
+        key: path.parse(dataFiles[i]).name,
+        path: path.join(DATA_DIR_PATH, dataFiles[i])
+      })
+    }
+
     const fileCount = DATA_PATH.length;
     const loadedFileData: any = {};
     for (let i = 0; i < DATA_PATH.length; i++) {
