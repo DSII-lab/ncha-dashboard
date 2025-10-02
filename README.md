@@ -31,6 +31,7 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 ## Docker
 Docker build: docker build -t ncha-dashboard .
-Docker run: docker run -e OPENAI_API_KEY=$OPENAI_API_KEY -e OPENAI_FILE_VECTOR=$OPENAI_FILE_VECTOR -p 3000:3000 ncha-dashboard
+
+Docker run: docker run -e OPENAI_API_KEY=$OPENAI_API_KEY -e OPENAI_FILE_VECTOR=$OPENAI_FILE_VECTOR -p 3000:3000 -v /var/app/data:/data ncha-dashboard
 
 Where the $OPENAI_API_KEY should be replaced with an OpenAI's api key, and $OPENAI_FILE_VECTOR should be replaced with the file vector id.
