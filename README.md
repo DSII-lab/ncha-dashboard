@@ -1,10 +1,11 @@
 ## Deployment Instruction
 
-1. Set up an API_KEY for Open AI
+1. Run the python script to convert spss files into csv files, and place them into a data folder.
+2. Set up an API_KEY for Open AI
 Go to https://platform.openai.com/api-keys, do create a secret key. 
-2. Set up a file vector: go to storage, file vectors, create a new file vector.
-3. Upload the json file (question list) into the file vector, do attach.
-4. Copy the file vector id
+3. Set up a file vector: go to storage, file vectors, create a new file vector.
+4. Upload the json file (question list) into the file vector, do attach.
+5. Copy the file vector id
 
 So now you have the api key and the id of the file vector.
 

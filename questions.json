@@ -1,0 +1,876 @@
+{
+  "N3Q1": "How would you describe your overall health?",
+  "N3Q2": {
+    "description": "Please select your level of agreement with the following statements:",
+    "subquestions": {
+      "N3Q2A": "I feel that I belong at my college/university.",
+      "N3Q2B": "I feel that students’ health and wellbeing is a priority at my college/university.",
+      "N3Q2C": "At my college/university, I feel that the campus climate encourages free and open discussion about students’ health and wellbeing.",
+      "N3Q2D": "At my college/university, we are a campus where we look out for each other."
+    }
+  },
+  "N3Q3": {
+    "description": "How many hours do you spend in a typical week (7 days) on the following activities?",
+    "subquestions": {
+      "N3Q3A": "Attending classes, discussion sections, or labs",
+      "N3Q3B": "Studying and other academic activities outside of class",
+      "N3Q3C": "Attending cultural events, movies, concerts, sports or other entertainment with others",
+      "N3Q3D": "Performing community service or volunteer activities",
+      "N3Q3E": "Participating in physical exercise, team sports, recreational sports, or physically active hobbies",
+      "N3Q3F": "Participating in spiritual or religious activities",
+      "N3Q3G": "Participating in student clubs or organizations",
+      "N3Q3H": "Socializing with friends",
+      "N3Q3I": "Partying",
+      "N3Q3J": "Spending time with family",
+      "N3Q3K": "Watching TV, streaming movies/TV, or other media for entertainment",
+      "N3Q3L": "Gaming",
+      "N3Q3M": "Using social media",
+      "N3Q3N": "Commuting to school and/or to work",
+      "N3Q3O": "Working for pay",
+      "N3Q3P": "Participating in meditation or meditative activities",
+      "N3Q3Q": "Performing unpaid household responsibilities",
+      "N3Q3R": "Taking care of children or other family members (unpaid)"
+    }
+  },
+  "N3Q4": "How do you describe your weight?",
+  "N3Q5": "Are you trying to do any of the following about your weight?",
+  "N3Q6": "In the last 7 days, how many (total) minutes did you spend doing moderate physical activity? Examples: brisk walking, dancing, or household chores.",
+  "N3Q7": "In the last 7 days, how many (total) minutes did you spend doing vigorous physical activity? Examples: running, swimming laps, or hiking.",
+  "N3Q8": "In the last 7 days, on how many days did you do exercises to strengthen or tone your muscles? Examples: push ups, sit ups, or weightlifting/training.",
+  "N3Q9A": "In the last 7 days, how many servings of sugar-sweetened beverages did you drink on average per day? One serving is 12 oz of soda; 8 oz of sugar-sweetened, flavored water or sports drink; 6 oz of sugar-sweetened coffee, tea, or juice. If you do not drink sugar-sweetened beverages, please enter 0.",
+  "N3Q9B": "In the past 30 days, on how many days did you drink energy drinks or energy shots (for example: Red Bull, Monster, Full Throttle, 5 Hour Energy, Rockstar Energy Shot, or Full Throttle Energy Shot, etc.)",
+  "N3Q10": "In the last 7 days, how many servings of fruit did you eat on average per day? One serving is a medium piece of fresh fruit; 1/2 cup of fresh, frozen, or canned fruit; 1/4 cup of dried fruit; or 3/4 cup of 100% fresh fruit juice",
+  "N3Q11": "In the last 7 days, how many servings of vegetables did you eat on average per day? One serving is ½ cup of fresh, frozen, or canned vegetables; ¾ cup 100% vegetable juice; or 1 cup salad greens)",
+  "N3Q12": {
+    "description": "For the following statements, please say whether the statement was often true, sometimes true, or never true for you in the last 30 days.",
+    "subquestions": {
+      "N3Q12A": "The food that I bought just didn't last, and I didn't have money to get more.",
+      "N3Q12B": "I couldn't afford to eat balanced meals."
+    }
+  },
+  "N3Q12C": "In the last 30 days, did you ever cut the size of your meals or skip meals because there wasn’t enough money for food?",
+  "N3Q12D": "In the last 30 days, did you ever eat less than you felt you should because there wasn't enough money for food?",
+  "N3Q12E": "In the last 30 days, were you ever hungry but didn't eat because there wasn't enough money for food?",
+  "N3Q13": "How long does it usually take for you to fall asleep at night once you close your eyes?",
+  "N3Q14": "Over the last 2 weeks, what is the average amount of sleep you have gotten on a weeknight (excluding naps)? (Please select the response closest to your answer)",
+  "N3Q15": "Over the last 2 weeks, what is the average amount of sleep you have gotten on a weekend night (excluding naps)? (Please select the response closest to your answer)",
+  "N3Q16": {
+    "description": "On how many of the last 7 days did you: (Please mark the appropriate column for each row)",
+    "subquestions": {
+      "N3Q16A": "Wake up too early in the morning and couldn't get back to sleep?",
+      "N3Q16B": "Feel tired or sleepy during the day?",
+      "N3Q16C": "Have an extremely hard time falling asleep?",
+      "N3Q16D": "Get enough sleep so that you felt rested?",
+      "N3Q16E": "Take a nap?"
+    }
+  },
+  "N3Q16F": "On average, how long are your naps?",
+  "N3Q17": {
+    "description": "Within the last 12 months, how often did you: (Please mark the appropriate column for each row) Did not do this",
+    "subquestions": {
+      "N3Q17A": "Wear a helmet when you rode a bicycle?",
+      "N3Q17B": "Wear a helmet when you rode a motorcycle/ motor scooter?",
+      "N3Q17C": "Wear a helmet when you were skateboarding?"
+    }
+  },
+  "N3Q18A": "When, if ever, was the last time you drove a car or other vehicle?",
+  "N3Q18B": "Within the last 2 weeks, on how many days did you drive a car or other vehicle?",
+  "N3Q18C": "Within the last 2 weeks, on how many days did you manually operate a device to text, email, video chat, or use the internet or apps while driving a car or other vehicle?",
+  "N3Q18D": "Within the last 12 months, how many times have you been involved in an accident when you drove a car or other vehicle?",
+  "N3Q19": {
+    "description": "Within the last 12 months, did you experience any of the following in an intimate (coupled/partnered) relationship? (Please mark the appropriate column for each row)",
+    "subquestions": {
+      "N3Q19A": "A partner called me names, insulted me, or put me down to make me feel bad.",
+      "N3Q19B": "A partner often insisted on knowing who I was with and where I was or tried to limit my contact with family or friends.",
+      "N3Q19C": "A partner pushed, grabbed, shoved, slapped, kicked, bit, choked, or hit me without my consent.",
+      "N3Q19D": "A partner forced me into unwanted sexual contact by holding me down or hurting me in some way.",
+      "N3Q19E": "A partner pressured me into unwanted sexual contact by threatening me, coercing me, or using alcohol or other drugs."
+    }
+  },
+  "N3Q20": {
+    "description": "Within the last 12 months, did you experience any of the following? Do not include intimate relationships. (Please mark the appropriate column for each row)",
+    "subquestions": {
+      "N3Q20A": "I was in a physical fight.",
+      "N3Q20B": "I was physically assaulted (do not include sexual assault).",
+      "N3Q20C": "I was verbally threatened.",
+      "N3Q20D": "I was sexually touched without my consent.",
+      "N3Q20E": "Sexual penetration (vaginal, anal, oral) was attempted on me without my consent.",
+      "N3Q20F": "I was sexually penetrated (vaginal, anal, oral), or made to penetrate someone without my consent.",
+      "N3Q20G": "I was a victim of stalking (for example: waiting for me outside my classroom, residence, or office; or repeated emails/phone calls)."
+    }
+  },
+  "N3Q21": "How safe do you feel: (Please mark the appropriate column for each row)",
+  "N3Q22A": {
+    "description": "In your life, which of the following substances have you ever used?",
+    "subquestions": {
+      "N3Q22A1": "Tobacco or nicotine delivery products (cigarettes, ecigarettes, Juul or other vape products, water pipe or hookah, chewing tobacco, cigars, etc.)",
+      "N3Q22A2": "Alcoholic beverages (beer, wine, liquor, etc.)",
+      "N3Q22A3": "Cannabis (marijuana, weed, hash, edibles, vaped cannabis, etc.) [Please report nonmedical use only.]",
+      "N3Q22A4": "Cocaine (coke, crack, etc.)",
+      "N3Q22A5": "Prescription stimulants (Ritalin, Concerta, Dexedrine, Adderall, diet pills, etc.) [Please report nonmedical use only.]",
+      "N3Q22A6": " Methamphetamine (speed, crystal meth, ice, etc.)",
+      "N3Q22A7": " Inhalants (poppers, nitrous, glue, gas, paint thinner, etc.)",
+      "N3Q22A8": "Sedatives or Sleeping Pills (Valium, Ativan, Xanax, Klonopin, Librium, Rohypnol, GHB, etc.) [Please report nonmedical use only.]",
+      "N3Q22A9": "Hallucinogens (Ecstasy, MDMA, Molly, LSD, acid, mushrooms, PCP, Special K, etc.)",
+      "N3Q22A10": " Heroin",
+      "N3Q22A11": "Prescription opioids (morphine, codeine, fentanyl, oxycodone [OxyContin, Percocet], hydrocodone [Vicodin], methadone, buprenorphine [Suboxone], etc.) [Please report nonmedical use only.]",
+      "N3Q22A12": " Other – Specify:"
+    }
+  },
+  "N3Q22B": {
+    "description": "In the past 3 months, how often have you used the substance(s) you mentioned?",
+    "subquestions": {
+      "N3Q22B1": "Tobacco or nicotine delivery products (cigarettes, ecigarettes, Juul or other vape products, water pipe or hookah, chewing tobacco, cigars, etc.)",
+      "N3Q22B2": "Alcoholic beverages (beer, wine, liquor, etc.)",
+      "N3Q22B3": "Cannabis (marijuana, weed, hash, edibles, vaped cannabis, etc.) [Please report nonmedical use only.]",
+      "N3Q22B4": "Cocaine (coke, crack, etc.)",
+      "N3Q22B5": "Prescription stimulants (Ritalin, Concerta, Dexedrine, Adderall, diet pills, etc.) [Please report nonmedical use only.]",
+      "N3Q22B6": "Methamphetamine (speed, crystal meth, ice, etc.)",
+      "N3Q22B7": "Inhalants (poppers, nitrous, glue, gas, paint thinner, etc.)",
+      "N3Q22B8": "Sedatives or Sleeping Pills (Valium, Ativan, Xanax, Klonopin, Librium, Rohypnol, GHB, etc.) [Please report nonmedical use only.]",
+      "N3Q22B9": "Hallucinogens (Ecstasy, MDMA, Molly, LSD, acid, mushrooms, PCP, Special K, etc.)",
+      "N3Q22B10": "Heroin",
+      "N3Q22B11": "Prescription opioids (morphine, codeine, fentanyl, oxycodone [OxyContin, Percocet], hydrocodone [Vicodin], methadone, buprenorphine [Suboxone], etc.) [Please report nonmedical use only.]",
+      "N3Q22B12": "Other"
+    }
+  },
+  "N3Q22E": "Regarding your use of prescription stimulants (Ritalin, Concerta, Dexedrine, Adderall, diet pills, etc.) in the past 3 months, was it prescribed for you?",
+  "N3Q22F": {
+    "description": "Regarding your use of prescription stimulants",
+    "subquestions": {
+      "N3Q22F1": "Do you ever use MORE of your stimulant medication, that is, take a higher dosage, than is prescribed for you?",
+      "N3Q22F2": "Do you ever use your stimulant medication MORE OFTEN, that is, shorten the time between dosages, than is prescribed for you?"
+    }
+  },
+  "N3Q22G": "Regarding your use of prescription sedatives or sleeping pills (Valium, Ativan, Xanax, Klonopin, Librium, Rohypnol, GHB, etc.) in the past 3 months, was it prescribed for you?",
+  "N3Q22H": {
+    "description": "Regarding your use of prescription sedatives or sleeping pills (Valium, Ativan, Xanax, Klonopin, Librium, Rohypnol, GHB, etc.) in the past 3 months:",
+    "subquestions": {
+      "N3Q22H1": "Do you ever use MORE of your sedatives or sleeping pills, that is, take a higher dosage, than is prescribed for you?",
+      "N3Q22H2": "Do you ever use your sedatives or sleeping pills MORE OFTEN, that is, shorten the time between dosages, than is prescribed for you?"
+    }
+  },
+  "N3Q22I": "Regarding your use of prescription opioids (morphine, codeine, fentanyl, oxycodone [OxyContin, Percocet], hydrocodone [Vicodin], methadone, buprenorphine [Suboxone], etc.) in the past 3 months, was it prescribed for you?",
+  "N3Q22J": {
+    "description": "Regarding your use of prescription opioids (morphine, codeine, fentanyl, oxycodone [OxyContin, Percocet], hydrocodone [Vicodin], methadone, buprenorphine [Suboxone], etc.) in the past 3 months:",
+    "subquestions": {
+      "N3Q22J1": "Do you ever use MORE of your opioid medication, that is, take a higher dosage, than is prescribed for you?",
+      "N3Q22J2": "Do you ever use your opioid medication MORE OFTEN, that is, shorten the time between dosages, than is prescribed for you?"
+    }
+  },
+  "N3Q22K": {
+    "description": "During the past 3 months, how often have you had a strong desire or urge to use the following substance(s)?",
+    "subquestions": {
+      "N3Q22K1": "Tobacco or nicotine delivery products (cigarettes, ecigarettes, Juul or other vape products, water pipe or hookah, chewing tobacco, cigars, etc.)",
+      "N3Q22K2": "Alcoholic beverages (beer, wine, liquor, etc.)",
+      "N3Q22K3": "Cannabis (marijuana, weed, hash, edibles, vaped cannabis, etc.) [Please report nonmedical use only.]",
+      "N3Q22K4": "Cocaine (coke, crack, etc.)",
+      "N3Q22K5": "Prescription stimulants (Ritalin, Concerta, Dexedrine, Adderall, diet pills, etc.) [Please report nonmedical use only.]",
+      "N3Q22K6": "Methamphetamine (speed, crystal meth, ice, etc.)",
+      "N3Q22K7": "Inhalants (poppers, nitrous, glue, gas, paint thinner, etc.)",
+      "N3Q22K9": "Hallucinogens (Ecstasy, MDMA, Molly, LSD, acid, mushrooms, PCP, Special K, etc.)",
+      "N3Q22K10": "Heroin",
+      "N3Q22K11": "Prescription opioids (morphine, codeine, fentanyl, oxycodone [OxyContin, Percocet], hydrocodone [Vicodin], methadone, buprenorphine [Suboxone], etc.) [Please report nonmedical use only.]",
+      "N3Q22K12": "Other"
+    }
+  },
+  "N3Q22L": {
+    "description": "During the past 3 months, how often has your use of the following substance(s) led to health, social, legal, or financial problems?",
+    "subquestions": {
+      "N3Q22L1": "Tobacco or nicotine delivery products (cigarettes, ecigarettes, Juul or other vape products, water pipe or hookah, chewing tobacco, cigars, etc.)",
+      "N3Q22L2": "Alcoholic beverages (beer, wine, liquor, etc.)",
+      "N3Q22L3": "Cannabis (marijuana, weed, hash, edibles, vaped cannabis, etc.) [Please report nonmedical use only.]",
+      "N3Q22L4": "Cocaine (coke, crack, etc.)",
+      "N3Q22L5": "Prescription stimulants (Ritalin, Concerta, Dexedrine, Adderall, diet pills, etc.) [Please report nonmedical use only.]",
+      "N3Q22L6": "Methamphetamine (speed, crystal meth, ice, etc.)",
+      "N3Q22L7": "Inhalants (poppers, nitrous, glue, gas, paint thinner, etc.)",
+      "N3Q22L8": "Sedatives or Sleeping Pills (Valium, Ativan, Xanax, Klonopin, Librium, Rohypnol, GHB, etc.) [Please report nonmedical use only.]",
+      "N3Q22L9": "Hallucinogens (Ecstasy, MDMA, Molly, LSD, acid, mushrooms, PCP, Special K, etc.)",
+      "N3Q22L10": "Heroin",
+      "N3Q22L11": "Prescription opioids (morphine, codeine, fentanyl, oxycodone [OxyContin, Percocet], hydrocodone [Vicodin], methadone, buprenorphine [Suboxone], etc.) [Please report nonmedical use only.]",
+      "N3Q22L12": "Other"
+    }
+  },
+  "N3Q22M": {
+    "description": "During the past 3 months, how often have you failed to do what was normally expected of you because of your use of the following substance(s)?",
+    "subquestions": {
+      "N3Q22M2": "Alcoholic beverages (beer, wine, liquor, etc.)",
+      "N3Q22M3": "Cannabis (marijuana, weed, hash, edibles, vaped cannabis, etc.) [Please report nonmedical use only.]",
+      "N3Q22M4": "Cocaine (coke, crack, etc.)",
+      "N3Q22M5": "Prescription stimulants (Ritalin, Concerta, Dexedrine, Adderall, diet pills, etc.) [Please report nonmedical use only.]",
+      "N3Q22M6": "Methamphetamine (speed, crystal meth, ice, etc.)",
+      "N3Q22M7": "Inhalants (poppers, nitrous, glue, gas, paint thinner, etc.)",
+      "N3Q22M8": "Sedatives or Sleeping Pills (Valium, Ativan, Xanax, Klonopin, Librium, Rohypnol, GHB, etc.) [Please report nonmedical use only.]",
+      "N3Q22M9": "Hallucinogens (Ecstasy, MDMA, Molly, LSD, acid, mushrooms, PCP, Special K, etc.)",
+      "N3Q22M10": "Heroin",
+      "N3Q22M11": "Prescription opioids (morphine, codeine, fentanyl, oxycodone [OxyContin, Percocet], hydrocodone [Vicodin], methadone, buprenorphine [Suboxone], etc.) [Please report nonmedical use only.]",
+      "N3Q22M12": "Other"
+    }
+  },
+  "N3Q22N": {
+    "description": "Has a friend or relative or anyone else ever expressed concern about your use of the following substance(s)?",
+    "subquestions": {
+      "N3Q22N1": "Tobacco or nicotine delivery products (cigarettes, ecigarettes, Juul or other vape products, water pipe or hookah, chewing tobacco, cigars, etc.)",
+      "N3Q22N2": "Alcoholic beverages (beer, wine, liquor, etc.)",
+      "N3Q22N3": "Cannabis (marijuana, weed, hash, edibles, vaped cannabis, etc.) [Please report nonmedical use only.]",
+      "N3Q22N4": "Cocaine (coke, crack, etc.)",
+      "N3Q22N5": "Prescription stimulants (Ritalin, Concerta, Dexedrine, Adderall, diet pills, etc.) [Please report nonmedical use only.]",
+      "N3Q22N6": "Methamphetamine (speed, crystal meth, ice, etc.)",
+      "N3Q22N7": "Inhalants (poppers, nitrous, glue, gas, paint thinner, etc.)",
+      "N3Q22N8": "Sedatives or Sleeping Pills (Valium, Ativan, Xanax, Klonopin, Librium, Rohypnol, GHB, etc.) [Please report nonmedical use only.]",
+      "N3Q22N9": "Hallucinogens (Ecstasy, MDMA, Molly, LSD, acid, mushrooms, PCP, Special K, etc.)",
+      "N3Q22N10": "Heroin",
+      "N3Q22N11": "Prescription opioids (morphine, codeine, fentanyl, oxycodone [OxyContin, Percocet], hydrocodone [Vicodin], methadone, buprenorphine [Suboxone], etc.) [Please report nonmedical use only.]",
+      "N3Q22N12": "Other"
+    }
+  },
+  "N3Q22O": {
+    "description": "Have you ever tried and failed to control, cut down or stop using the following substance(s)?",
+    "subquestions": {
+      "N3Q22O1": "Tobacco or nicotine delivery products (cigarettes, ecigarettes, Juul or other vape products, water pipe or hookah, chewing tobacco, cigars, etc.)",
+      "N3Q22O2": "Alcoholic beverages (beer, wine, liquor, etc.)",
+      "N3Q22O3": "Cannabis (marijuana, weed, hash, edibles, vaped cannabis, etc.) [Please report nonmedical use only.]",
+      "N3Q22O4": "Cocaine (coke, crack, etc.)",
+      "N3Q22O5": "Prescription stimulants (Ritalin, Concerta, Dexedrine, Adderall, diet pills, etc.) [Please report nonmedical use only.]",
+      "N3Q22O6": "Methamphetamine (speed, crystal meth, ice, etc.)",
+      "N3Q22O7": "Inhalants (poppers, nitrous, glue, gas, paint thinner, etc.)",
+      "N3Q22O8": "Sedatives or Sleeping Pills (Valium, Ativan, Xanax, Klonopin, Librium, Rohypnol, GHB, etc.) [Please report nonmedical use only.]",
+      "N3Q22O9": "Hallucinogens (Ecstasy, MDMA, Molly, LSD, acid, mushrooms, PCP, Special K, etc.)",
+      "N3Q22O10": "Heroin",
+      "N3Q22O11": "Prescription opioids (morphine, codeine, fentanyl, oxycodone [OxyContin, Percocet], hydrocodone [Vicodin], methadone, buprenorphine [Suboxone], etc.) [Please report nonmedical use only.]",
+      "N3Q22O12": "Other"
+    }
+  },
+  "N3Q22P": "Have you ever used any drug by injection?",
+  "N3Q22Q": "In the past 3 months, how often have you injected drugs?",
+  "N3Q23": {
+    "description": "Within the last 3 months, which tobacco products have you used?",
+    "subquestions": {
+      "N3Q23A": "Cigarettes",
+      "N3Q23B": "Ecigarettes or other vape products (for example: Juul, etc.)",
+      "N3Q23C": "Water pipe or hookah",
+      "N3Q23D": "Chewing or smokeless tobacco",
+      "N3Q23E": "Cigars or little cigars",
+      "N3Q23F": "Other (please specify)"
+    }
+  },
+  "N3Q24": "When, if ever, was the last time you used cannabis/marijuana? Please include medical and non-medical use.",
+  "N3Q25A": "When, if ever, was the last time you drank alcohol?",
+  "N3Q25B": {
+    "description": "The last time you drank alcohol:",
+    "subquestions": {
+      "N3Q25B1": "Did you get drunk?",
+      "N3Q25B2": "Did you intend to get drunk?"
+    }
+  },
+  "N3Q26": "The last time you drank alcohol in a social setting, how many drinks of alcohol did you have?",
+  "N3Q27": "The last time you drank alcohol in a social setting, over how many hours did you drink alcohol?",
+  "N3Q28": "Over the last two weeks, how many times have you had five or more drinks (males) or four or more drinks (females) containing any kind of alcohol at a sitting?",
+  "N3Q29": {
+    "description": "Within the last 12 months, have you experienced any of the following when drinking alcohol? (Please mark the appropriate column for each row)",
+    "subquestions": {
+      "N3Q29A": "Did something I later regretted",
+      "N3Q29B": "Blackout (forgot where I was or what I did for a large period of time and cannot remember, even when someone reminds me)",
+      "N3Q29C": "Brownout (forgot where I was or what I did for short periods of time, but can remember once someone reminds me)",
+      "N3Q29D": "Got in trouble with the police",
+      "N3Q29E": "Got in trouble with college/university authorities",
+      "N3Q29F": "Someone had sex with me without my consent",
+      "N3Q29G": "Had sex with someone without their consent",
+      "N3Q29H": "Had unprotected sex",
+      "N3Q29I": "Physically injured myself",
+      "N3Q29J": "Physically injured another person",
+      "N3Q29K": "Seriously considered suicide",
+      "N3Q29L": "Needed medical help"
+    }
+  },
+  "N3Q30A": "Within the last 30 days, did you drive after drinking any alcohol at all?",
+  "N3Q30B": "Within the last 12 months, to what extent did your alcohol use affect your academic performance? (Please select the most serious outcome below)",
+  "N3Q31A": "Within the last 30 days, did you drive within 6 hours of using cannabis/marijuana?",
+  "N3Q31B": "Within the last 12 months, to what extent did your cannabis/marijuana use affect your academic performance? (Please select the most serious outcome below)",
+  "N3Q32": "Do you identify as a person in recovery from alcohol or other drug use?",
+  "N3Q32TEXT______": "",
+  "N3Q33": {
+    "description": "When, if ever, was the last time you had: (Please mark the appropriate column for each row)",
+    "subquestions": {
+      "N3Q33A": "Oral sex (oral/genital contact)?",
+      "N3Q33B": "Vaginal intercourse (penis in vagina)?",
+      "N3Q33C": "Anal intercourse (penis in anus)?"
+    }
+  },
+  "N3Q34": "Within the last 12 months, with how many partners have you had oral sex, vaginal intercourse, or anal intercourse?",
+  "N3Q35": {
+    "description": "Within the last 12 months, did you have sexual partner(s) who were: (Please mark the appropriate column for each row)",
+    "subquestions": {
+      "N3Q35A": "Women or females",
+      "N3Q35B": "Men or males",
+      "N3Q35C": "Trans women",
+      "N3Q35D": "Trans men",
+      "N3Q35E": "Genderqueer",
+      "N3Q35F": "Person(s) with another identity"
+    }
+  },
+  "N3Q36": "Within the last 30 days, how often did you or your partner(s) use a condom or other protective barrier (for example: male condom, female condom, dam, or glove) during: (Please mark the appropriate column for each row)",
+  "N3Q37": "Did you or your partner use any method to prevent pregnancy the last time you had vaginal intercourse (penis in vagina)?",
+  "N3Q38": "Please indicate which of the following method(s) you or your partner used to prevent pregnancy the last time you had vaginal intercourse. (Please select ALL that apply)",
+  "N3Q39": "Within the last 12 months, have you or your partner(s) used emergency contraception ('morning after pill' or 'Plan B')?",
+  "N3Q40": "Within the last 12 months, have you or your partner(s) become pregnant?",
+  "N3Q41": {
+    "description": "Below are 8 statements with which you may agree or disagree. Using the scale below, indicate your agreement with each item by indicating that response for each statement.",
+    "subquestions": {
+      "N3Q41A": "Being (Diener Flourishing Scale)I lead a purposeful and meaningful life.",
+      "N3Q41B": "Being (Diener Flourishing Scale)My social relationships are supportive and rewarding.",
+      "N3Q41C": "Being (Diener Flourishing Scale)I am engaged and interested in my daily activities.",
+      "N3Q41D": "Being (Diener Flourishing Scale)I actively contribute to the happiness and wellbeing of others.",
+      "N3Q41E": "Being (Diener Flourishing Scale)I am competent and capable in the activities that are important to me.",
+      "N3Q41F": "Being (Diener Flourishing Scale)I am a good person and live a good life.",
+      "N3Q41G": "Being (Diener Flourishing Scale)I am optimistic about my future.",
+      "N3Q41H": "Being (Diener Flourishing Scale)People respect me."
+    }
+  },
+  "N3Q42": {
+    "description": "Please indicate how much you agree with the following statements as they apply to you over the last month. If a particular situation has not occurred recently, answer according to how you think you would have felt.",
+    "subquestions": {
+      "N3Q42A": "RISC)I am able to adapt when changes occur.",
+      "N3Q42B": "RISC)I tend to bounce back after illness, injury, or other hardships."
+    }
+  },
+  "N3Q43": "If in the future you were having a personal problem that was really bothering you, would you consider seeking help from a mental health professional?",
+  "N3Q44": {
+    "description": "The next 6 questions ask about how you have been feeling during the past 30 days. For each question, please select the response that best describes how often you had this feeling. During the past 30 days, about how often did you feel...",
+    "subquestions": {
+      "N3Q44A": "...nervous?",
+      "N3Q44B": "...hopeless?",
+      "N3Q44C": "...restless or fidgety?",
+      "N3Q44D": "...so sad nothing could cheer you up?",
+      "N3Q44E": "...that everything was an effort?",
+      "N3Q44F": "...worthless?"
+    }
+  },
+  "N3Q45": {
+    "description": "Indicate how often each of the statements below is descriptive of you.",
+    "subquestions": {
+      "N3Q45A": "How often do you feel that you lack companionship?",
+      "N3Q45B": "How often do you feel left out?",
+      "N3Q45C": "How often do you feel isolated from others?"
+    }
+  },
+  "N3Q46": "Within the last 12 months, how often have you intentionally cut, burned, bruised, or otherwise injured yourself?",
+  "N3Q47A": {
+    "description": "Within the last 12 months, have you had problems or challenges with any the following?",
+    "subquestions": {
+      "N3Q47A1": "Academics",
+      "N3Q47A2": "Career",
+      "N3Q47A3": "Finances",
+      "N3Q47A4": "Procrastination",
+      "N3Q47A5": "Faculty",
+      "N3Q47A6": "Family",
+      "N3Q47A7": "Intimate relationships",
+      "N3Q47A8": "Roommate/housemate",
+      "N3Q47A9": "Peers",
+      "N3Q47A10": "Personal appearance",
+      "N3Q47A11": "Health of someone close to me",
+      "N3Q47A12": "Death of a family member, friend, or someone close to me"
+    }
+  },
+  "N3Q47B": {
+    "description": "Within the last 12 months, to what extent did the following issue(s) cause you distress?",
+    "subquestions": {
+      "N3Q47B1": "Academics",
+      "N3Q47B2": "Career",
+      "N3Q47B3": "Finances",
+      "N3Q47B4": "Procrastination",
+      "N3Q47B5": "Faculty",
+      "N3Q47B6": "Family",
+      "N3Q47B7": "Intimate relationships",
+      "N3Q47B8": "Roommate/housemate",
+      "N3Q47B9": "Peers",
+      "N3Q47B10": "Personal appearance",
+      "N3Q47B11": "Health of someone close to me",
+      "N3Q47B12": "Death of a family member, friend, or someone close to me"
+    }
+  },
+  "N3Q47C": {
+    "description": "Within the last 12 months, to what extent did the following issue(s) negatively affect your academic performance? (Please select the most serious outcome below)",
+    "subquestions": {
+      "N3Q47C2": "Career",
+      "N3Q47C3": "Finances",
+      "N3Q47C4": "Procrastination",
+      "N3Q47C5": "Faculty",
+      "N3Q47C6": "Family",
+      "N3Q47C7": "Intimate relationships",
+      "N3Q47C8": "Roommate/housemate",
+      "N3Q47C9": "Peers",
+      "N3Q47C10": "Personal appearance",
+      "N3Q47C11": "Health of someone close to me",
+      "N3Q47C12": "Death of a family member, friend, or someone close to me"
+    }
+  },
+  "N3Q48": "Within the last 30 days, how would you rate the overall level of stress you have experienced?",
+  "N3Q49": "Have you ever thought about or attempted to kill yourself?",
+  "N3Q50": "How often have you thought about killing yourself in the past year?",
+  "N3Q51": "Have you ever told someone that you were going to commit suicide, or that you might do it?",
+  "N3Q52": "How likely is it that you will attempt suicide someday?",
+  "N3Q53": "Within the last 12 months, have you attempted suicide?",
+  "N3Q54A": "Have you ever received psychological or mental health services?",
+  "N3Q54B": "Within in the last 12 months, have you received psychological or mental health services?",
+  "N3Q54C": "Were the psychological or mental health services you received in the last 12 months provided by:",
+  "N3Q55A": "Within the last 12 months, have you visited any medical provider (for example: a nurse practitioner, physician assistant, primary care doctor, or other type of medical doctor) for a check-up or any other medical reasons?",
+  "N3Q55B": "Were the medical services you received in the last 12 months provided by:",
+  "N3Q56": "Have you had a gynecologic visit or exam (for example: contraception, STI testing, pelvic exam, or Pap test) with a healthcare provider (for example: OB-GYN, nurse practitioner, or physician assistant)?",
+  "N3Q57": "Have you had a dental exam and cleaning in the last 12 months?",
+  "N3Q58": "When you are outdoors in the sun, how often do you wear sunscreen?",
+  "N3Q59": {
+    "description": "When you are outdoors in the sun, how often do you do the following to protect your skin from ultraviolet (UV) exposure?",
+    "subquestions": {
+      "N3Q59A": "Wear a shirt with sleeves",
+      "N3Q59B": "Wear sunglasses",
+      "N3Q59C": "Stay in the shade",
+      "N3Q59D": "Wear a hat"
+    }
+  },
+  "N3Q60": "In the last 12 months, how many times have you spent time outdoors with the intention of getting a tan?",
+  "N3Q61": "The Human Papillomavirus (HPV) vaccine (for example: Gardasil, Silgard, or Cervarix) is recommended, but usually not required, and is given in a series of 2 or 3 shots based on your age. Which of the following best describes your vaccination status for HPV:",
+  "N3Q62": "Did you have a flu vaccine within the last 12 months?",
+  "N3Q63A": {
+    "description": "Within the last 12 months, have you been diagnosed by a healthcare professional with any of the following?",
+    "subquestions": {
+      "N3Q63A1": "Bronchitis",
+      "N3Q63A2": "Chlamydia",
+      "N3Q63A3": "Chicken Pox (Varicella)",
+      "N3Q63A4": "Cold/virus or other respiratory illness (for example: sinus infection, ear infection, strep throat, tonsillitis, pharyngitis, or laryngitis)",
+      "N3Q63A5": "Concussion",
+      "N3Q63A6": "Gonorrhea",
+      "N3Q63A7": "Flu (influenza) or flulike illness",
+      "N3Q63A8": "Mumps",
+      "N3Q63A9": "Mononucleosis (mono)",
+      "N3Q63A10": "Orthopedic injury (for example: broken bone, fracture, sprain, bursitis, tendinitis, or ligament injury)",
+      "N3Q63A11": "Pelvic Inflammatory Disease",
+      "N3Q63A12": "Pneumonia",
+      "N3Q63A13": "Shingles",
+      "N3Q63A14": "Stomach or GI virus or bug, food poisoning, or gastritis",
+      "N3Q63A15": "Urinary tract infection",
+      "N3Q63A16": "Other shortterm, temporary illness not listed above (please specify)"
+    }
+  },
+  "N3Q63B": {
+    "description": "Within the last 12 months, to what extent did the following negatively affect your academic performance? (Please select the most serious outcome below)",
+    "subquestions": {
+      "N3Q63B1": "Bronchitis",
+      "N3Q63B2": "Chlamydia",
+      "N3Q63B3": "Chicken Pox (Varicella)",
+      "N3Q63B4": "Cold/virus or other respiratory illness (for example: sinus infection, ear infection, strep throat, tonsillitis, pharyngitis, or laryngitis)",
+      "N3Q63B5": "Concussion",
+      "N3Q63B6": "Gonorrhea",
+      "N3Q63B7": "Flu (influenza) or flulike illness",
+      "N3Q63B8": "Mumps",
+      "N3Q63B9": "Mononucleosis (mono)",
+      "N3Q63B10": "Orthopedic injury (for example: broken bone, fracture, sprain, bursitis, tendinitis, or ligament injury)",
+      "N3Q63B11": "Pelvic Inflammatory Disease",
+      "N3Q63B12": "Pneumonia",
+      "N3Q63B13": "Shingles",
+      "N3Q63B14": "Stomach or GI virus or bug, food poisoning, or gastritis",
+      "N3Q63B15": "Urinary tract infection",
+      "N3Q63B16": "Other shortterm, temporary illness not listed above (please specify)"
+    }
+  },
+  "N3Q64": "Have you ever been tested for HIV?",
+  "N3Q65A": {
+    "description": "Have you ever been diagnosed by a healthcare or mental health professional with any of the following ongoing or chronic conditions?",
+    "subquestions": {
+      "N3Q65A1": "Acne",
+      "N3Q65A2": "ADD/ADHD  Attention Deficit/Hyperactivity Disorder",
+      "N3Q65A4": "Allergies  food allergy",
+      "N3Q65A5": "Allergies  animals/pets",
+      "N3Q65A6": "Allergies  environmental (for example: pollen, grass, dust, mold)",
+      "N3Q65A7": "Anxiety (for example: Generalized Anxiety, Social Anxiety, Panic Disorder, Specific Phobia)",
+      "N3Q65A8": "Asthma",
+      "N3Q65A9": "Autism spectrum",
+      "N3Q65A10": "Bipolar and Related Conditions (for example: Bipolar I, II, Hypomanic Episode)",
+      "N3Q65A11": "Borderline Personality Disorder (BPD), Avoidant Personality, Dependent Personality, or another personality disorder",
+      "N3Q65A12": "Cancer",
+      "N3Q65A13": "Celiac disease",
+      "N3Q65A14": "Chronic pain (for example: back or joint pain, arthritis, nerve pain)",
+      "N3Q65A15": "Depression (for example: Major depression, persistent depressive disorder, disruptive mood disorder)",
+      "N3Q65A16": "Diabetes or prediabetes/insulin resistance",
+      "N3Q65A17": "Eating Disorders (for example: Anorexia Nervosa, Bulimia Nervosa, BingeEating)",
+      "N3Q65A18": "Endometriosis",
+      "N3Q65A19": "Gambling Disorder",
+      "N3Q65A20": "Genital herpes",
+      "N3Q65A21": "Gastroesophageal Reflux Disease (GERD) or acid reflux",
+      "N3Q65A22": "Heart & vascular disorders (for example: atrial fibrillation or other cardiac arrhythmia, mitral valve prolapse or other valvular heart disease, congenital heart condition)",
+      "N3Q65A23": "Hepatitis B or C",
+      "N3Q65A24": "High blood pressure (hypertension)",
+      "N3Q65A25": "High cholesterol (hyperlipidemia)",
+      "N3Q65A26": "HIV or AIDS",
+      "N3Q65A27": "Human papillomavirus (HPV) or genital warts",
+      "N3Q65A28": "Insomnia",
+      "N3Q65A29": "Irritable bowel syndrome (spastic colon or spastic bowel)",
+      "N3Q65A30": "Migraine headaches",
+      "N3Q65A31": "ObsessiveCompulsive and Related Conditions (for example: OCD, Body Dysmorphia, Hoarding, Trichotillomania, other bodyfocused repetitive behavior disorders)",
+      "N3Q65A32": "Polycystic Ovarian Syndrome (PCOS)",
+      "N3Q65A33": "PTSD (Posttraumatic Stress Disorder), Acute Stress Disorder, Adjustment Disorder, or another trauma or stressorrelated condition",
+      "N3Q65A34": "Schizophrenia and Other Psychotic Conditions (for example: Schizophrenia, Schizoaffective Disorder, Schizophreniform Disorder, Delusional Disorder)",
+      "N3Q65A35": "Sleep Apnea",
+      "N3Q65A36": "Thyroid condition or disorder",
+      "N3Q65A37": "Tourette’s or other neurodevelopmental condition not already listed",
+      "N3Q65A38": "Traumatic brain injury (TBI)",
+      "N3Q65A39": "Urinary system disorder (for example: bladder or kidney disease, urinary reflux, interstitial cystitis)",
+      "N3Q65A40": "Other ongoing or chronic condition not listed above"
+    }
+  },
+  "N3Q65B": {
+    "description": "Please indicate in which of the following categories you have an",
+    "subquestions": {
+      "N3Q65B1": "Allergic & immunologic disorder",
+      "N3Q65B2": "Autoimmune disorder",
+      "N3Q65B3": "Blood disorder",
+      "N3Q65B4": "Brain & nervous system disorder",
+      "N3Q65B5": "Hair, skin, nails disorder",
+      "N3Q65B6": "Digestive system disorder",
+      "N3Q65B7": "Endocrine system disorder",
+      "N3Q65B8": "Eye/ear/nose/throat disorder",
+      "N3Q65B9": "Heart & vascular disorder",
+      "N3Q65B10": "Infectious disease",
+      "N3Q65B11": "Mental health/psychological disorder",
+      "N3Q65B12": "Musculoskeletal disorder",
+      "N3Q65B13": "Reproductive system disorder",
+      "N3Q65B14": "Respiratory disorder",
+      "N3Q65B15": "Sleepwake disorder",
+      "N3Q65B16": "Urinary system disorder",
+      "N3Q65B17": "Other ongoing or chronic condition not previously reported (please specify)"
+    }
+  },
+  "N3Q65C": {
+    "description": "Have you ever been diagnosed with any of the following ongoing or chronic allergic & immunologic disorders?",
+    "subquestions": {
+      "N3Q65C1": "Anaphylaxis",
+      "N3Q65C2": "Medication allergy",
+      "N3Q65C3": "Latex allergy",
+      "N3Q65C4": "Insect/bee sting allergy",
+      "N3Q65C5": "Immune deficiency",
+      "N3Q65C6": "Other allergic or immunologic condition not previously reported (please specify)"
+    }
+  },
+  "N3Q65D": {
+    "description": "Have you ever been diagnosed with any of the following ongoing or chronic autoimmune disorders?",
+    "subquestions": {
+      "N3Q65D1": "Other allergic or immunologic condition",
+      "N3Q65D2": "Rheumatoid Arthritis",
+      "N3Q65D3": "Scleroderma",
+      "N3Q65D4": "Systemic Lupus Erythematosus",
+      "N3Q65D5": "Other autoimmune disorder  not previously reported (please specify)"
+    }
+  },
+  "N3Q65E": {
+    "description": "Have you ever been diagnosed with any of the following ongoing or chronic blood disorders?",
+    "subquestions": {
+      "N3Q65E1": "Anemia",
+      "N3Q65E2": "Hemophilia",
+      "N3Q65E3": "Hypercoagulable states",
+      "N3Q65E4": "Platelet Conditions",
+      "N3Q65E5": "Sickle Cell Disease",
+      "N3Q65E6": "Other blood condition  not previously reported (please specify)"
+    }
+  },
+  "N3Q65F": {
+    "description": "Have you ever been diagnosed with any of the following ongoing or chronic brain & nervous system disorders?",
+    "subquestions": {
+      "N3Q65F1": "Cerebral Palsy",
+      "N3Q65F2": "Epilepsy",
+      "N3Q65F3": "Seizure Conditions",
+      "N3Q65F4": "Multiple Sclerosis",
+      "N3Q65F5": "Other brain or nervous system condition  not previously reported (please specify"
+    }
+  },
+  "N3Q65G": {
+    "description": "Have you ever been diagnosed with any of the following ongoing or chronic hair, skin, nail disorders?",
+    "subquestions": {
+      "N3Q65G1": "Alopecia",
+      "N3Q65G2": "Eczema",
+      "N3Q65G3": "Hirsutism",
+      "N3Q65G4": "Hyperhidrosis",
+      "N3Q65G5": "Photodermatitis",
+      "N3Q65G6": "Psoriasis",
+      "N3Q65G7": "Vitiligo",
+      "N3Q65G8": "Other hair, skin, or nail condition  not previously reported (please specify)"
+    }
+  },
+  "N3Q65H": {
+    "description": "Have you ever been diagnosed with any of the following ongoing or chronic digestive system disorders?",
+    "subquestions": {
+      "N3Q65H1": "Crohn’s Disease",
+      "N3Q65H2": "Diverticular Disease",
+      "N3Q65H3": "Esophageal Disease",
+      "N3Q65H4": "Gallbladder Disease",
+      "N3Q65H5": "Ulcerative Colitis",
+      "N3Q65H6": "Other digestive system condition  not previously reported (please specify)"
+    }
+  },
+  "N3Q65I": "What other endocrine system disorder (not previously reported) were you diagnosed with?",
+  "N3Q65J": {
+    "description": "Have you ever been diagnosed with any of the following ongoing or chronic eye, ear, nose, throat disorders?",
+    "subquestions": {
+      "N3Q65J1": "Hearing loss",
+      "N3Q65J2": "Uveitis",
+      "N3Q65J3": "Vertigo",
+      "N3Q65J4": "Other eye/ear/nose/throat condition not previously reported (please specify)"
+    }
+  },
+  "N3Q65K": {
+    "description": "Have you ever been diagnosed with any of the following ongoing or chronic heart & vascular system disorders?",
+    "subquestions": {
+      "N3Q65K1": "Cardiac Arrhythmia",
+      "N3Q65K2": "Coronary Artery Disease",
+      "N3Q65K3": "Congenital Heart Condition",
+      "N3Q65K4": "Congestive Heart Failure",
+      "N3Q65K5": "Heart Murmur",
+      "N3Q65K6": "Valvular Heart Disease (for example: Mitral valve prolapse)",
+      "N3Q65K7": "Other heart or vascular condition  not previously reported (please specify)"
+    }
+  },
+  "N3Q65L": {
+    "description": "Have you ever been diagnosed with any of the following ongoing or chronic infectious diseases?",
+    "subquestions": {
+      "N3Q65L1": "Lyme Disease",
+      "N3Q65L2": "Other infectious disease  not previously reported (please specify)"
+    }
+  },
+  "N3Q65M": "What other mental health/condition(s) (not previously reported) were you diagnosed with?",
+  "N3Q65N": {
+    "description": "Have you ever been diagnosed with any of the following ongoing or chronic musculoskeletal disorders?",
+    "subquestions": {
+      "N3Q65N1": "Carpal Tunnel Syndrome",
+      "N3Q65N2": "Fibromyalgia",
+      "N3Q65N3": "Gout",
+      "N3Q65N4": "Muscular Dystrophy",
+      "N3Q65N5": "Osteoarthritis",
+      "N3Q65N6": "Osteoporosis",
+      "N3Q65N7": "Temporomandibular Joint Dysfunction",
+      "N3Q65N8": "Other musculoskeletal condition  not previously reported (please specify)"
+    }
+  },
+  "N3Q65O": {
+    "description": "Have you ever been diagnosed with any of the following ongoing or chronic reproductive system disorders?",
+    "subquestions": {
+      "N3Q65O1": "Amenorrhea",
+      "N3Q65O2": "Cervical Dysplasia",
+      "N3Q65O3": "Premenstrual Syndrome (PMS), Premenstrual Dysphoric Disorder (PMDD), or painful periods (Dysmenorrhea)",
+      "N3Q65O4": "Prostatitis",
+      "N3Q65O5": "Sexual Dysfunction",
+      "N3Q65O6": "Other reproductive system condition  not previously reported (please specify)"
+    }
+  },
+  "N3Q65P": {
+    "description": "Have you ever been diagnosed with any of the following ongoing or chronic respiratory system disorders?",
+    "subquestions": {
+      "N3Q65P1": "Cystic Fibrosis",
+      "N3Q65P2": "Sarcoidosis",
+      "N3Q65P3": "Active Tuberculous",
+      "N3Q65P4": "Other respiratory system condition  not previously reported (please specify)"
+    }
+  },
+  "N3Q65Q": {
+    "description": "Have you ever been diagnosed with any of the following ongoing or chronic sleep-wake disorders?",
+    "subquestions": {
+      "N3Q65Q1": "wake disordersHypersomnolence",
+      "N3Q65Q2": "wake disordersNarcolepsy",
+      "N3Q65Q3": "wake disordersRestless Leg Syndrome",
+      "N3Q65Q4": "wake disordersSleep Paralysis",
+      "N3Q65Q5": "wake disordersSleep Terrors (or night terrors)",
+      "N3Q65Q6": "wake disordersSleep Walking",
+      "N3Q65Q7": "wake disordersOther sleepwake condition  not previously reported (please specify)"
+    }
+  },
+  "N3Q65R": {
+    "description": "Have you ever been diagnosed with any of the following ongoing or chronic urinary system disorders?",
+    "subquestions": {
+      "N3Q65R1": "Bladder disease",
+      "N3Q65R2": "Kidney disease",
+      "N3Q65R3": "Kidney stone",
+      "N3Q65R4": "Urinary Incontinence",
+      "N3Q65R5": "Other urinary system condition  not previously reported (please specify)"
+    }
+  },
+  "N3Q65S": {
+    "description": "You indicated that you had been diagnosed with Diabetes or Pre-Diabetes. Were you told that you had:",
+    "subquestions": {
+      "N3Q65S1": "Type 1 Diabetes",
+      "N3Q65S2": "Type 2 Diabetes",
+      "N3Q65S3": "Prediabetes or insulin resistance",
+      "N3Q65S4": "Gestational Diabetes"
+    }
+  },
+  "N3Q65T": {
+    "description": "Have you had an appointment and/or discussion with a healthcare or mental health professional for the following condition(s) within the last 12 months?",
+    "subquestions": {
+      "N3Q65T1": "Acne",
+      "N3Q65T2": "ADD/ADHD  Attention Deficit/Hyperactivity Disorder",
+      "N3Q65T4": "Allergies  food allergy",
+      "N3Q65T5": "Allergies  animals/pets",
+      "N3Q65T6": "Allergies  environmental (for example: pollen, grass, dust, mold)",
+      "N3Q65T7": "Anxiety (for example: Generalized Anxiety, Social Anxiety, Panic Disorder, Specific Phobia)",
+      "N3Q65T8": "Asthma",
+      "N3Q65T9": "Autism Spectrum",
+      "N3Q65T10": "Bipolar and Related Conditions (for example: Bipolar I, II, Hypomanic Episode)",
+      "N3Q65T11": "Borderline Personality Disorder (BPD), Avoidant Personality, Dependent Personality, or another personality disorder",
+      "N3Q65T12": "Cancer",
+      "N3Q65T13": "Celiac disease",
+      "N3Q65T14": "Chronic pain (for example: back or joint pain, arthritis, nerve pain)",
+      "N3Q65T15": "Depression (for example: Major depression, persistent depressive disorder, disruptive mood disorder)",
+      "N3Q65T16": "Diabetes or prediabetes/insulin resistance",
+      "N3Q65T17": "Eating Disorders (for example: Anorexia Nervosa, Bulimia Nervosa, BingeEating)",
+      "N3Q65T18": "Endometriosis",
+      "N3Q65T19": "Gambling Disorder",
+      "N3Q65T20": "Genital herpes",
+      "N3Q65T22": "Heart & vascular disorders (for example: atrial fibrillation or other cardiac arrhythmia, mitral valve prolapse or other valvular heart disease, congenital heart condition)",
+      "N3Q65T23": "Hepatitis B or C",
+      "N3Q65T24": "High blood pressure (hypertension)",
+      "N3Q65T25": "High cholesterol (hyperlipidemia)",
+      "N3Q65T26": "HIV or AIDS",
+      "N3Q65T27": "Human papillomavirus (HPV) or genital warts",
+      "N3Q65T28": "Insomnia",
+      "N3Q65T29": "Irritable bowel syndrome (spastic colon or spastic bowel)",
+      "N3Q65T30": "Migraine headaches",
+      "N3Q65T31": "ObsessiveCompulsive and Related Conditions (for example: OCD, Body Dysmorphia, Hoarding, Trichotillomania and other bodyfocused repetitive behavior disorders)",
+      "N3Q65T32": "Polycystic Ovarian Syndrome (PCOS)",
+      "N3Q65T33": "PTSD (Posttraumatic Stress Disorder), Adjustment Disorder, or another trauma or stressorrelated condition",
+      "N3Q65T34": "Schizophrenia and Other Psychotic Conditions (for example: Schizophrenia, Schizoaffective Disorder, Schizophreniform Disorder, Delusional Disorder)",
+      "N3Q65T35": "Sleep Apnea",
+      "N3Q65T36": "Thyroid condition or disorder",
+      "N3Q65T37": "Tourette's or other neurodevelopmental condition not already listed",
+      "N3Q65T38": "Traumatic brain injury (TBI)",
+      "N3Q65T39": "Urinary system disorder (for example: bladder or kidney disease, urinary reflux, interstitial cystitis)",
+      "N3Q65T40": "Other ongoing or chronic condition not listed above"
+    }
+  },
+  "N3Q65U": {
+    "description": "In the last 12 months, what treatment(s), if any, have you used for the following conditions?",
+    "subquestions": {
+      "N3Q65U2": "ADD/ADHD  Attention Deficit/Hyperactivity Disorder",
+      "N3Q65U7": "Anxiety (for example: Generalized Anxiety, Social Anxiety, Panic Disorder, Specific Phobia)",
+      "N3Q65U9": "Autism spectrum",
+      "N3Q65U10": "Bipolar and Related Conditions (for example: Bipolar I, II, Hypomanic Episode)",
+      "N3Q65U11": "Borderline Personality Disorder (BPD), Avoidant Personality, Dependent Personality, or another personality disorder",
+      "N3Q65U15": "Depression (for example: Major depression, persistent depressive disorder, disruptive mood disorder)",
+      "N3Q65U17": "Eating Disorders (for example: Anorexia Nervosa, Bulimia Nervosa, BingeEating)",
+      "N3Q65U19": "Gambling Disorder",
+      "N3Q65U28": "Insomnia",
+      "N3Q65U31": "ObsessiveCompulsive and Related Conditions (for example: OCD, Body Dysmorphia, Hoarding, Trichotillomania and other bodyfocused repetitive behavior disorders)",
+      "N3Q65U33": "PTSD (Posttraumatic Stress Disorder), Acute Stress Disorder, Adjustment Disorder, or another trauma or stressor related condition",
+      "N3Q65U34": "Schizophrenia and Other Psychotic Conditions (for example: Schizophrenia, Schizoaffective Disorder, Schizophreniform Disorder, Delusional Disorder)",
+      "N3Q65U37": "Tourette's or other neurodevelopmental condition not already listed",
+      "N3Q65U38": "Traumatic brain injury (TBI)"
+    }
+  },
+  "N3Q65V": "In the last 12 months, what other treatment did you receive?",
+  "N3Q65W": {
+    "description": "Have you received treatment for the following condition(s) by a healthcare or mental health professional within the last 12 months?",
+    "subquestions": {
+      "N3Q65W1": "Acne",
+      "N3Q65W4": "Allergies  food allergy",
+      "N3Q65W5": "Allergies  animals/pets",
+      "N3Q65W6": "Allergies  environmental (for example: pollen, grass, dust, mold)",
+      "N3Q65W8": "Asthma",
+      "N3Q65W12": "Cancer",
+      "N3Q65W13": "Celiac disease",
+      "N3Q65W14": "Chronic pain (for example: back or joint pain, arthritis, nerve pain)",
+      "N3Q65W16": "Diabetes or prediabetes/insulin resistance",
+      "N3Q65W18": "Endometriosis",
+      "N3Q65W20": "Genital herpes",
+      "N3Q65W21": "Gastroesophageal Reflux Disease (GERD) or acid reflux",
+      "N3Q65W22": "Heart & vascular disorders (for example: atrial fibrillation or other cardiac arrhythmia, mitral valve prolapse or other valvular heart disease, congenital heart condition)",
+      "N3Q65W23": "Hepatitis B or C",
+      "N3Q65W24": "High blood pressure (hypertension)",
+      "N3Q65W25": "High cholesterol (hyperlipidemia)",
+      "N3Q65W26": "HIV or AIDS",
+      "N3Q65W27": "Human papillomavirus (HPV) or genital warts",
+      "N3Q65W29": "Irritable bowel syndrome (spastic colon or spastic bowel)",
+      "N3Q65W30": "Migraine headaches",
+      "N3Q65W32": "Polycystic Ovarian Syndrome (PCOS)",
+      "N3Q65W35": "Sleep Apnea",
+      "N3Q65W36": "Thyroid condition or disorder",
+      "N3Q65W39": "Urinary system disorder (for example: bladder or kidney disease, urinary reflux, interstitial cystitis)"
+    }
+  },
+  "N3Q65X": {
+    "description": "Did a healthcare or mental health professional tell you that you do not need treatment, or that you can stop treatment, for the following conditions?",
+    "subquestions": {
+      "N3Q65X1": "Acne",
+      "N3Q65X2": "ADD/ADHD  Attention Deficit/Hyperactivity Disorder",
+      "N3Q65X4": "Allergies  food allergy",
+      "N3Q65X5": "Allergies  animals/pets",
+      "N3Q65X6": "Allergies  environmental (for example: pollen, grass, dust, mold)",
+      "N3Q65X7": "Anxiety (for example: Generalized Anxiety, Social Anxiety, Panic Disorder, Specific Phobia)",
+      "N3Q65X8": "Asthma",
+      "N3Q65X9": "Autism spectrum",
+      "N3Q65X10": "Bipolar and Related Conditions (for example: Bipolar I, II, Hypomanic Episode)",
+      "N3Q65X11": "Borderline Personality Disorder (BPD), Avoidant Personality, Dependent Personality, or another personality disorder",
+      "N3Q65X12": "Cancer",
+      "N3Q65X13": "Celiac disease",
+      "N3Q65X14": "Chronic pain (for example: back or joint pain, arthritis, nerve pain)",
+      "N3Q65X15": "Depression (for example: Major depression, persistent depressive disorder, disruptive mood disorder)",
+      "N3Q65X16": "Diabetes or prediabetes/insulin resistance",
+      "N3Q65X17": "Eating Disorders (for example: Anorexia Nervosa, Bulimia Nervosa, BingeEating)",
+      "N3Q65X18": "Endometriosis",
+      "N3Q65X19": "Gambling Disorder",
+      "N3Q65X20": "Genital herpes",
+      "N3Q65X21": "Gastroesophageal Reflux Disease (GERD) or acid reflux",
+      "N3Q65X22": "Heart & vascular disorders (for example: atrial fibrillation or other cardiac arrhythmia, mitral valve prolapse or other valvular heart disease, congenital heart condition)",
+      "N3Q65X23": "Hepatitis B or C",
+      "N3Q65X24": "High blood pressure (hypertension)",
+      "N3Q65X25": "High cholesterol (hyperlipidemia)",
+      "N3Q65X26": "HIV or AIDS",
+      "N3Q65X27": "Human papillomavirus (HPV) or genital warts",
+      "N3Q65X28": "Insomnia",
+      "N3Q65X29": "Irritable bowel syndrome (spastic colon or spastic bowel)",
+      "N3Q65X30": "Migraine headaches",
+      "N3Q65X31": "ObsessiveCompulsive and Related Conditions (for example: OCD, Body Dysmorphia, Hoarding, Trichotillomania and other bodyfocused repetitive behavior disorders)",
+      "N3Q65X32": "Polycystic Ovarian Syndrome (PCOS)",
+      "N3Q65X33": "PTSD (Posttraumatic Stress Disorder), Acute Stress Disorder, Adjustment Disorder, or another trauma or stressorrelated condition",
+      "N3Q65X34": "Schizophrenia and Other Psychotic Conditions (for example: Schizophrenia, Schizoaffective Disorder, Schizophreniform Disorder, Delusional Disorder)",
+      "N3Q65X35": "Sleep Apnea",
+      "N3Q65X36": "Thyroid condition or disorder",
+      "N3Q65X37": "Tourette's or other neurodevelopmental condition not already listed",
+      "N3Q65X38": "Traumatic brain injury (TBI)",
+      "N3Q65X39": "Urinary system disorder (for example: bladder or kidney disease, urinary reflux, interstitial cystitis)"
+    }
+  },
+  "N3Q65Y": "Within the last 12 months, to what extent did your ongoing or chronic condition(s) negatively affect your academic performance? (Please select the most serious outcome below)",
+  "N3Q66": {
+    "description": "Within the last 12 months, have any of the following affected your academic performance? (Please select the most serious outcome for each item below)",
+    "subquestions": {
+      "N3Q66A": "Assault (physical)",
+      "N3Q66B": "Assault (sexual)",
+      "N3Q66C": "Allergies",
+      "N3Q66D": "Anxiety",
+      "N3Q66E": "AttentionDeficit/Hyperactivity Disorder (ADHD) or AttentionDeficit Disorder (ADD)",
+      "N3Q66F": "Concussion or Traumatic Brain Injury (TBI)",
+      "N3Q66G": "Depression",
+      "N3Q66H": "Eating disorder/problem",
+      "N3Q66I": "Headaches/migraines",
+      "N3Q66J": "Influenza or influenza like illness (the flu)",
+      "N3Q66K": "Injury (for example: burn, sprain, or broken bone) excluding concussion or TBI",
+      "N3Q66L": "PMS (Premenstrual Syndrome), painful periods, or menstrual cramping",
+      "N3Q66M": "Post Traumatic Stress Disorder (PTSD)",
+      "N3Q66N": "Shortterm illness, excluding upper respiratory illness and influenza",
+      "N3Q66O": "Upper respiratory illness (for example: sinus infection, colds, or sore throat, etc.)",
+      "N3Q66P": "Sleep difficulties",
+      "N3Q66Q": "Stress",
+      "N3Q66R": "Other issue not previously reported (please specify)"
+    }
+  },
+  "N3Q75A": {
+    "description": "How do you usually describe yourself?",
+    "subquestions": {
+      "N3Q75A1": "American Indian or Native Alaskan",
+      "N3Q75A2": "Asian or Asian American",
+      "N3Q75A3": "Black or African American",
+      "N3Q75A4": "Hispanic or Latino/a/x",
+      "N3Q75A5": "Middle Eastern/North African (MENA) or Arab Origin",
+      "N3Q75A6": "Native Hawaiian or Other Pacific Islander Native",
+      "N3Q75A7": "White",
+      "N3Q75A8": "Biracial or Multiracial",
+      "N3Q75A9": "My identity is not listed above (please specify)"
+    }
+  }
+}
