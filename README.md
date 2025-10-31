@@ -48,7 +48,7 @@ Where the `$OPENAI_API_KEY` should be replaced with an OpenAI's api key, and `$O
 ## Deployment Instructions (Production)
 
 1. Set up an API_KEY for Open AI: Go to https://platform.openai.com/api-keys, click "Create a secret key."
-2. Set up an Open AI file vector: Go to https://platform.openai.com/api-keys, go to: storage -> file vectors -> create a new file vector.
+2. Set up an Open AI file vector: Go to https://platform.openai.com/storage/vector_stores and do create a new file vector.
 3. Upload the file `questions.json` at the root directory of this repo into the file vector, do attach.
 4. Copy the resulting file vector id returned by Open AI.
 
