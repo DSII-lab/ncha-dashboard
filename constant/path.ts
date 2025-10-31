@@ -1,1 +1,1 @@
-export const DATA_DIR_PATH = "/data";
+export const DATA_DIR_PATH = "/Users/dongyingxuan/Desktop/data";

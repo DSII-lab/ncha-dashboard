@@ -140,6 +140,8 @@ export default function Home() {
 
     const promptData = result.data;
 
+    console.log(Object.keys(data), promptData.year)
+
     if (!Object.keys(data).includes(promptData.year) || !Object.keys(questions).includes(promptData.questionId) || (promptData.subquestionId !== null && !Object.keys(subquestions[promptData.questionId]).includes(promptData.subquestionId))) {
       alert('Unable to parse the prompt.');
       return;

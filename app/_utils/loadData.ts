@@ -73,6 +73,7 @@ export default function loadData() {
     const DATA_PATH: any = [];
 
     for (let i = 0; i < dataFiles.length; i++) {
+      if (dataFiles[i] === '.DS_Store') continue;
       DATA_PATH.push({
         key: path.parse(dataFiles[i]).name,
         path: path.join(DATA_DIR_PATH, dataFiles[i])
